@@ -1,0 +1,95 @@
+body{
+    font-family: 'Fraunces', serif;
+    
+    font-weight: 700;
+}
+h1 {
+    margin-left: 20px;
+    text-align: left;
+    width: 75%;
+    
+}
+h2 {
+    display: inline;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 20px;
+    color: hsl(158, 36%, 37%);
+}
+p {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-left: 20px;
+    text-align: left;
+    width: 75%;
+}
+img {
+
+    width: 17.5rem;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+
+}
+main {
+    width: 90rem;
+    height: 90%;
+    margin: auto;
+    background-color: hsl(30, 38%, 92%);
+    box-shadow: 3px 3px 1px hsl(30, 38%, 92%);
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+    height: 28rem;
+    background-color: hsl(30, 38%, 92%);
+    margin: 150px auto 0 auto;
+    border-radius: 10px;
+    padding: 50px 0;
+    box-shadow: 3px 3px 1px hsl(30, 38%, 92%);
+}
+.sub {
+    text-justify: auto;
+    letter-spacing: 0.3125rem;
+}
+.card-picture {
+    
+}
+.product-info {
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 0 10px 10px 0;
+}
+.btn {
+    font-weight: 700;
+    border-radius: 10px;
+    width: 80%;
+    height: 2.8125rem;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 30px 0 0 20px;
+    border: none;
+}
+.price-1 {
+    display: inline;
+}
+.price-2 {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    vertical-align: .75rem;
+}
+.cart {
+    display: inline;
+}
+.btn-txt {
+    display: inline;
+    color: hsl(0, 0%, 100%);
+    vertical-align: .09375rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
